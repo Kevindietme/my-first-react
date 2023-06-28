@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Greeting from './components/Greeting';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Greeting />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          I'm getting hungry! 
         </p>
         <a
           className="App-link"
@@ -15,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React (at boca code!)
         </a>
       </header>
     </div>
